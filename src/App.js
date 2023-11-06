@@ -11,6 +11,8 @@ import DataFetchOnce from './hook/dataFetchOnce';
 import HookMouse from './hook/hookMouse';
 import IntervalHookCounter from './hook/intervalHookCounter';
 import MouseContainer from './hook/mouseContainer';
+import CounterOne from './hook/reducer/counterOne';
+import CounterTwo from './hook/reducer/counterTwo';
 
 export const AnotherContext = React.createContext();
 export const UserContext = React.createContext();
@@ -24,11 +26,13 @@ function App() {
 			{/* <DataFetch /> */}
 			{/* <Counter /> */}
 			{/* <DataFetchOnce /> */}
-			<UserContext.Provider value={'Soumya'}>
+			{/* <UserContext.Provider value={'Soumya'}>
 				<AnotherContext.Provider value={'Chakraborty'}>
 					<ParentComponent />
 				</AnotherContext.Provider>
-			</UserContext.Provider>
+			</UserContext.Provider> */}
+			{/* <CounterOne /> */}
+			<CounterTwo />
 		</div>
 	);
 }
