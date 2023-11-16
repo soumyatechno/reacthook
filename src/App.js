@@ -13,6 +13,7 @@ import IntervalHookCounter from './hook/intervalHookCounter';
 import MouseContainer from './hook/mouseContainer';
 import CounterOne from './hook/reducer/counterOne';
 import CounterTwo from './hook/reducer/counterTwo';
+import Focus from './hook/ref/focus';
 
 export const AnotherContext = React.createContext();
 export const UserContext = React.createContext();
@@ -32,7 +33,8 @@ function App() {
 				</AnotherContext.Provider>
 			</UserContext.Provider> */}
 			{/* <CounterOne /> */}
-			<CounterTwo />
+			{/* <CounterTwo /> */}
+			<Focus />
 		</div>
 	);
 }
