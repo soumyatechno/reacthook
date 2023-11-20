@@ -18,6 +18,7 @@ import Counter from './hook/ref/counter';
 import CustomCounter from './components/customCounter';
 import SampleCounterOne from './components/SampleCounterOne';
 import SampleCounterTwo from './components/SampleCounterTwo';
+import UseInput from './components/customComponents';
 
 export const AnotherContext = React.createContext();
 export const UserContext = React.createContext();
@@ -41,8 +42,9 @@ function App() {
 			{/* <Focus /> */}
 			{/* <Counter /> */}
 			{/* <CustomCounter /> */}
-			<SampleCounterOne />
-			<SampleCounterTwo />
+			{/* <SampleCounterOne /> */}
+			{/* <SampleCounterTwo /> */}
+			<UseInput />
 		</div>
 	);
 }
